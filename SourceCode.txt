@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 8</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5c9e8f;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #cb8d09;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .team-profile {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+        .profile {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            width: 280px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+        .profile:hover {
+            transform: scale(1.05);
+        }
+        .profile img {
+            width: 100%;
+            height: auto;
+        }
+        .profile h2 {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .profile p {
+            padding: 0 1rem 1rem;
+            color: #555;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Group 8: Team Gin with Nestea</h1>
+    </header>
+    
+    <div class="container">
+        <div class="team-profile">
+            <div class="profile">
+                <img src="josh.jpg" alt="Ryan Josh Castillo">
+                <h2>Ryan Josh Castillo</h2>
+                <p> The Gymrat<br> I like pretty girl/s<br> Programming is my Favorite.</p>
+            </div>
+            
+            <div class="profile">
+                <img src="arwin.jpg" alt="Arwin Aguas">
+                <h2>Arwin Aguas</h2>
+                <p>Gym rat<br> I like Chubby girl/s<br> I will be Superhero someday. </p>
+            </div>
+            
+            <div class="profile">
+                <img src="andrei.jpg" alt="Andrei Egualan">
+                <h2>Andrei Egualan</h2>
+                  <p>Firefighter</br> ML is Life</br> I Love my GF</br> I have Green Motorcycle</p>
+            </div>
+            
+            <div class="profile">
+                <img src="moi.jpg" alt="Lorenzo Valdez">
+                <h2>Lorenzo Valdez</h2>
+                <p>Traveler<br> Codm Player since Season 1<br>
+                  I have crush on my Classmate<br>her name is... rapcvb</p>
+            </div>
+            
+            <div class="profile">
+                <img src="pogi.jpg" alt="Serge Yusingco">
+                <h2>Serge Yusingco</h2>
+                <p>Online Game addict<br>I always take 5 Coffee a day<br> Risk taker, Like Pusoy Game </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
